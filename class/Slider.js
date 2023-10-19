@@ -1,19 +1,3 @@
-const images = [
-    { src: 'images/1.jpg', title: 'A link to the Past' },
-    { src: 'images/2.jpg', title: 'Twilight princess' },
-    { src: 'images/3.jpg', title: 'Skyward Sword' },
-    { src: 'images/4.jpg', title: 'WindWaker' },
-    { src: 'images/5.jpg', title: 'Breath of the wild' },
-    { src: 'images/6.jpg', title: "Link's awakening" },
-];
-
-const params = {
-    images,
-    area: 'div.slider',
-    width: '100%',
-    height: '100%',
-};
-
 class Slider {
     constructor(params) {
         this.images = params.images;
@@ -66,5 +50,3 @@ class Slider {
         this.imageElement.alt = title;
     }
 }
-
-const slider = new Slider(params);

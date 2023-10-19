@@ -1,5 +1,5 @@
-## Slider Jour 4 : Projet en Peer-programing
-# Slider photo
+# Slider Jour 4 : Projet en Peer-programing
+## Slider photo
 
 Vous disposez d'un tableau contenant le nom de photos et leur description
 
