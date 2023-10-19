@@ -50,3 +50,5 @@ class Slider {
         this.imageElement.alt = title;
     }
 }
+
+export default Slider;

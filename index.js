@@ -1,3 +1,5 @@
+// import Slider from './class/Slider.js';
+
 const images = [
     { src: 'images/1.jpg', title: 'A link to the Past' },
     { src: 'images/2.jpg', title: 'Twilight princess' },
@@ -13,7 +15,12 @@ const params = {
     width: '100%',
     height: '100%',
 };
-
+const params2 = {
+    images,
+    area: 'div.slider2',
+    width: '80%',
+    height: '80%',
+};
 class Slider {
     constructor(params) {
         this.images = params.images;
@@ -68,3 +75,4 @@ class Slider {
 }
 
 const slider = new Slider(params);
+const slider2 = new Slider(params2);
