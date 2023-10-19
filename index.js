@@ -18,8 +18,8 @@ const params = {
 const params2 = {
     images,
     area: 'div.slider2',
-    width: '80%',
-    height: '80%',
+    width: '50%',
+    height: '50%',
 };
 class Slider {
     constructor(params) {
