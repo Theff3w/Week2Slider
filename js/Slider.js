@@ -1,3 +1,4 @@
+"use strict";
 class Slider {
     constructor(params) {
         this.images = params.images;
@@ -51,4 +52,4 @@ class Slider {
     }
 }
 
-export default Slider;
+export { Slider };
